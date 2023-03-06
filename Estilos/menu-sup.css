@@ -1,0 +1,112 @@
+/* estilos generales menu superior */
+.menu-superior {
+    background-color: black;
+    height: 55px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 23fr 1fr 1fr;
+    align-items: center;
+    padding: 10px 7px;
+    margin: -8px 0px 0px -8px;
+}
+
+/* comportamientos enlaces e imagenes */
+.menu-superior a{
+    text-decoration: none;
+    color: white;
+    transition: 0.6s;
+}
+.menu-superior a:hover{
+    text-decoration: none;
+    color: #4bce79;
+    transition: 0.6s;
+}
+.menu-superior img {
+    width: 15rem;
+    height: 100%;
+    margin-right: 30px;
+    margin-left: 17px;
+}
+
+
+/* menu enlaces central */
+.menu-superior > .menu-enlaces-central {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 700;
+    transition: 0.6s;
+}
+.menu-superior > .menu-enlaces-central >.explore a {
+    color: #f4e187 ;
+   
+}
+.menu-superior > .menu-enlaces-central >.explore a:hover {
+    color: red ;
+    transition: 0.6s;
+}
+
+.menu-superior >.menu-enlaces-central >.menu-central-nivel-inferior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: 0.6s;
+}
+
+.menu-superior >.menu-enlaces-central >.menu-central-nivel-inferior >.spark {
+    font-family: "Ubuntu Condensed", sans-serif;
+    text-decoration: none;
+    
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+.menu-superior >.menu-enlaces-central >.menu-central-nivel-inferior >.spark a {
+    color: #acacac;
+}
+.menu-superior >.menu-enlaces-central >.menu-central-nivel-inferior >.spark a:hover {
+    color: #ff0000;
+}
+
+
+
+/* menu de enlaces de la derecha - cajas */
+.menu-superior > .grupo-menu-derecha {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+    width: 500px;
+
+    font-family:  sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: 0.6s;
+}
+
+.menu-superior > .grupo-menu-derecha > .cajas-derecha >.fa-solid{
+    color: #4bce79;
+    margin-top: 3px;
+}
+
+.menu-superior > .grupo-menu-derecha > .lupa .fa-solid {
+    font-size: 2em;
+}
+.menu-superior > .grupo-menu-derecha  > .cajas-derecha {
+  
+    padding: 15px 30px;
+    background-color: #36383f;
+    color: #cbcbcb;
+    border-radius: 4px;
+}

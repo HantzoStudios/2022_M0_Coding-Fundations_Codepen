@@ -1,0 +1,48 @@
+/* .Menu-base {
+    color: white;
+    font-family: 'Roboto+Slab', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: -0.1em;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    margin: 50px -8px 5px -8px;
+} */
+
+ .Menu-base {
+    color: white;
+    font-family: 'Roboto+Slab', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: -0.1em;
+
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 30px -8px 5px -8px;
+  }
+.Menu-base > .cajas-base {
+    background-color: #36383f;
+    width: 100%;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px;
+    border-style: solid;
+}
+
+.Menu-base > .cajas-base a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.Menu-base > .cajas-base span {
+    font-family: 'Roboto+Slab', sans-serif;
+    font-size: 1.8rem;
+    font-weight:bolder;
+}
